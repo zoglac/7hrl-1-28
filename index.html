@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <style>
+            body {
+                background:#aaa;
+                padding:0;
+                margin:0;
+                font-weight: bold;
+                overflow:hidden;
+            }
+        </style>
+        <script type="text/javascript" src="libs/random.js"></script>
+        <script type="text/javascript" src="libs/viewer.js"></script>
+        <script type="text/javascript" src="libs/physics.js"></script>
+        <script type="text/javascript" src="generic.js"></script>
+        <script type="text/javascript" src="states/maze.js"></script>
+        <script type="text/javascript" src="other/enemy.js"></script>
+        <script type="text/javascript" src="other/player.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        
+    </head>
+    <body onload="init();">
+
+        <div hidden id="csrftoken">ABCD</div>
+
+        <canvas id="game" width="800" height="600"></canvas>
+
+    </body>
+</html>
